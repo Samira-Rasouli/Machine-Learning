@@ -79,6 +79,52 @@ SGD is widely used in:
 Stochastic Gradient Descent is a powerful optimization technique widely used in machine learning and deep learning due to its speed and scalability. However, it requires proper tuning and often benefits from enhancements like mini-batches, momentum, or adaptive learning rate methods to achieve stable and efficient convergence.
 
 
+
+
+We define a third-degree polynomial function:
+
+                                    f(θ) = aθ³ + bθ² + cθ + d
+where the coefficients are:
+- a = 3
+- b = -2
+- c = -4
+- d = 1
+
+The gradient (first derivative) of the function is:
+                                     ∇f(θ) = 3aθ² + 2bθ + c
+Substituting the values:
+                                      ∇f(θ) = 9θ² - 4θ – 4
+
+** Stochastic Gradient Descent (SGD) Algorithm**
+
+SGD iteratively updates θ using the formula:
+
+                                   θ(t+1) = θ(t) - α ∇f(θ(t))
+where:
+- θ(t) is the value of θ at iteration t.
+- α (learning rate) controls the step size.
+- ∇f(θ) is the gradient at θ.
+To prevent unstable updates, we apply gradient clipping:
+
+                                   ∇f(θ) = clip(∇f(θ), -10, 10)
+
+**Visualization & Animation**
+
+Two plots are generated:
+- Polynomial Curve: Displays f(θ), showing the function's shape.
+- Loss Plot: Tracks the function's value over iterations.
+
+At each iteration:
+1. θ is updated according to SGD.
+2. The function value f(θ) is calculated.
+3. The updated loss value is displayed separately within the figure.
+4. Key Observations
+
+- Small α: Slower but stable convergence.
+- Large α: Faster updates but may overshoot the minimum.
+- Gradient clipping: Ensures stability by preventing extreme updates.
+This method effectively demonstrates how SGD optimizes a polynomial function over time.
+
 ![figure](https://github.com/user-attachments/assets/95074187-9458-4ab7-a8f0-b0163fc37f93)
 
 
