@@ -1,5 +1,8 @@
 **Stochastic Gradient Descent (SGD)**
 
+![figure gift](https://github.com/user-attachments/assets/c462964b-73b8-47d0-be3d-b8256a0b7d18)
+
+
 **1. Introduction**
 
 Stochastic Gradient Descent (SGD) is a variant of Gradient Descent that updates model parameters using only a single randomly chosen data point (or a small subset) at each iteration. This makes SGD much faster and more scalable for large datasets compared to traditional Batch Gradient Descent.
@@ -77,7 +80,7 @@ SGD is widely used in:
 Stochastic Gradient Descent is a powerful optimization technique widely used in machine learning and deep learning due to its speed and scalability. However, it requires proper tuning and often benefits from enhancements like mini-batches, momentum, or adaptive learning rate methods to achieve stable and efficient convergence.
 
 
-![figure gift](https://github.com/user-attachments/assets/f8fe9f9a-d91b-4aad-b3b4-9cc69e2932b4)
+
 
 
 
