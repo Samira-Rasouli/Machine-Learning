@@ -9,21 +9,37 @@ Given a function f(θ), where θ represents the parameters we want to optimize, 
 θ(t+1) = θ(t) - α ∇f(θ(t))
 
 where:
+
 - ∇f(θ) is the gradient (vector of partial derivatives),
+
 - α is the learning rate (a small step size),
+
 - t denotes the iteration number.
+
 **4. Types of Gradient Descent**
+
 There are three main types of gradient descent, differing in how they update parameters:
+
 **A. Batch Gradient Descent**
+
 Uses the entire dataset to compute the gradient.
+
 More stable but computationally expensive for large datasets.
+
 **B. Stochastic Gradient Descent (SGD)**
+
 Updates parameters after computing the gradient for a single data point.
+
 Faster but introduces noise in updates.
+
 **C. Mini-Batch Gradient Descent**
+
 Uses a small random subset (mini-batch) of data to compute the gradient.
+
 Balances efficiency and stability.
+
 **5. Challenges and Solutions**
+
 A. Choosing the Right Learning Rate
 - Too large → Overshoots, may not converge.
 - Too small → Converges slowly.
