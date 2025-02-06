@@ -1,4 +1,5 @@
 **Stochastic Gradient Descent (SGD)**
+![figure](https://github.com/user-attachments/assets/95074187-9458-4ab7-a8f0-b0163fc37f93)
 
 
 **1. Introduction**
