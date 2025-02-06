@@ -76,3 +76,6 @@ SGD is widely used in:
 
 Stochastic Gradient Descent is a powerful optimization technique widely used in machine learning and deep learning due to its speed and scalability. However, it requires proper tuning and often benefits from enhancements like mini-batches, momentum, or adaptive learning rate methods to achieve stable and efficient convergence.
 
+![figure gift](https://github.com/user-attachments/assets/ffd0da65-d0db-472f-ac62-99c7ff21f6f7)
+
+
