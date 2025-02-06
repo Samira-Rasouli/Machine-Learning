@@ -2,7 +2,9 @@
 1. Introduction
 Gradient Descent is an optimization algorithm used to minimize a function by iteratively moving in the direction of the steepest descent, as defined by the negative of the gradient.
 2. Intuition Behind Gradient Descent
+
 Imagine you're on a mountain and want to reach the lowest point. If you always step in the direction where the ground slopes downward the most, you'll eventually reach the bottom. Gradient descent works similarly by adjusting parameters in machine learning or mathematical optimization problems to minimize an objective function (like an error or loss function).
+
 3. Mathematical Formulation
 Given a function f(θ), where θ represents the parameters we want to optimize, gradient descent updates θ iteratively:
 
@@ -51,17 +53,29 @@ A. Choosing the Right Learning Rate
 
 **C. Feature Scaling**
 - Poorly scaled features can slow down convergence.
+
 - Solution: Use normalization (e.g., standardization).
+
 **6. Advanced Variants**
+
 To improve gradient descent performance, researchers have developed adaptive variants:
 
 - Momentum Gradient Descent: Uses past gradients to accelerate convergence.
+
 - Adam (Adaptive Moment Estimation): Combines momentum with adaptive learning rates.
+
 - RMSProp: Adjusts the learning rate based on recent gradient magnitudes.
+
 **7. Applications of Gradient Descent**
+
 Gradient descent is widely used in:
+
 - Machine Learning (training neural networks, support vector machines, etc.).
+
 - Optimization Problems (e.g., minimizing costs in logistics).
+
 - Economics & Finance (e.g., portfolio optimization).
+
 **8. Conclusion**
+
 Gradient Descent is a crucial optimization method used in various fields, especially machine learning. Choosing the right type and tuning hyperparameters like the learning rate significantly impact its effectiveness.
