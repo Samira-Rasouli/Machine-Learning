@@ -1,4 +1,5 @@
 **Stochastic Gradient Descent (SGD)**
+
 **1. Introduction**
 
 Stochastic Gradient Descent (SGD) is a variant of Gradient Descent that updates model parameters using only a single randomly chosen data point (or a small subset) at each iteration. This makes SGD much faster and more scalable for large datasets compared to traditional Batch Gradient Descent.
