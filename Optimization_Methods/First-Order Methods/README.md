@@ -1,4 +1,5 @@
-**Gradient Descent: A Fundamental Optimization Algorithm**
+****Gradient Descent: A Fundamental Optimization Algorithm****
+
 **1. Introduction**
 
 Gradient Descent is an optimization algorithm used to minimize a function by iteratively moving in the direction of the steepest descent, as defined by the negative of the gradient.
