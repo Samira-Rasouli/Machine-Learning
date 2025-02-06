@@ -79,3 +79,4 @@ Stochastic Gradient Descent is a powerful optimization technique widely used in 
 ![figure gift](https://github.com/user-attachments/assets/ffd0da65-d0db-472f-ac62-99c7ff21f6f7)
 
 
+
