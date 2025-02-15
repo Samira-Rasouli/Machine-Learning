@@ -47,13 +47,13 @@ Anomaly Detection (Fraud detection in credit cards)
 1. Machine Learning
 
 ├── Supervised Learning
-
+|
 │   ├── Regression (e.g., Linear Regression)
-
+|
 │  ├── Classification (e.g., Decision Trees, Neural Networks)
-
+|
 │
-
+|
 ├── Unsupervised Learning
 
 │  ├── Clustering (e.g., K-Means)
