@@ -73,6 +73,7 @@ Anomaly Detection (Fraud detection in credit cards)
 
 ├── **Reinforcement Learning**
 
+|
 ├── **Reward-Based Learning (e.g., Q-Learning, DQN)**
 
 
