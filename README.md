@@ -1,4 +1,4 @@
-       # Machine-Learninng
+# Machine-Learninng
 Machine Learning is a branch of artificial intelligence that enables systems to learn from data and improve their performance without explicit programming. In machine learning, models extract patterns from past data and use these patterns to make predictions or decisions on new data.
 
 **Types of Machine Learning:**
