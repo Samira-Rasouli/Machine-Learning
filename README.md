@@ -3,14 +3,14 @@ Machine Learning is a branch of artificial intelligence that enables systems to 
 
 **Types of Machine Learning:**
 
-**Supervised Learning**
+**1. Supervised Learning**
 
 The model is trained on labeled data.
 Example: Spam email classification (with labels "spam" and "not spam").
 
 Algorithms: Linear Regression, Decision Trees, Neural Networks.
 
-**Unsupervised Learning**
+**2. Unsupervised Learning**
 
 The model discovers hidden patterns and structures in data without labels.
 
@@ -18,13 +18,13 @@ Example: Customer segmentation based on purchasing behavior.
 
 Algorithms: K-Means, Principal Component Analysis (PCA).
 
-**Semi-Supervised Learning**
+**3. Semi-Supervised Learning**
 
 A combination of the above two methods, where some data points are labeled, and others are not.
 
 Example: Disease detection from medical images, where only a limited number of images are labeled.
 
-**Reinforcement Learning**
+**4. Reinforcement Learning**
 
 The model learns by interacting with the environment and receiving rewards or penalties.
 
@@ -32,7 +32,7 @@ Example: Training a robot to play chess or drive autonomously.
 
 Algorithms: Q-Learning, Deep Q-Networks (DQN).
 
-Applications of Machine Learning:
+**Applications of Machine Learning:**
 
 Natural Language Processing (Machine translation, chatbots)
 
