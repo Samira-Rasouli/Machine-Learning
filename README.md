@@ -48,23 +48,23 @@ Anomaly Detection (Fraud detection in credit cards)
 
 ├── **Supervised Learning**
 
-│   ├── Regression (e.g., Linear Regression)
+│     ├── Regression (e.g., Linear Regression)
 
-│  ├── Classification (e.g., Decision Trees, Neural Networks)
+│    ├── Classification (e.g., Decision Trees, Neural Networks)
 
 │
 
 ├── **Unsupervised Learning**
 
-│  ├── Clustering (e.g., K-Means)
+│    ├── Clustering (e.g., K-Means)
 
-│  ├── Dimensionality Reduction (e.g., PCA)
+│    ├── Dimensionality Reduction (e.g., PCA)
 
 │
 
 ├── **Semi-Supervised Learning**
 
-│  ├── Combination of Labeled & Unlabeled Data
+│     ├── Combination of Labeled & Unlabeled Data
 
 │
 
