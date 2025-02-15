@@ -44,9 +44,9 @@ Anomaly Detection (Fraud detection in credit cards)
 
 
 
-1. Machine Learning
+**Machine Learning**
 
-├── Supervised Learning
+├── **Supervised Learning**
 
 │   ├── Regression (e.g., Linear Regression)
 
@@ -54,7 +54,7 @@ Anomaly Detection (Fraud detection in credit cards)
 
 │
 
-├── Unsupervised Learning
+├── **Unsupervised Learning**
 
 │  ├── Clustering (e.g., K-Means)
 
@@ -62,14 +62,15 @@ Anomaly Detection (Fraud detection in credit cards)
 
 │
 
-├── Semi-Supervised Learning
+├── **Semi-Supervised Learning**
 
 │  ├── Combination of Labeled & Unlabeled Data
 
 │
 
-├── Reinforcement Learning
+├── **Reinforcement Learning**
 
-├── Reward-Based Learning (e.g., Q-Learning, DQN)
+├── **Reward-Based Learning (e.g., Q-Learning, DQN)**
+
 
 
