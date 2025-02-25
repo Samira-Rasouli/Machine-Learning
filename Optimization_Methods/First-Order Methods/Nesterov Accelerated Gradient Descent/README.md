@@ -10,7 +10,10 @@ Nesterov Accelerated Gradient Descent uses a technique called Momentum to addres
 
 The Nesterov Accelerated Gradient Descent algorithm consists of three main steps:
 
-**1. Predicting the future position: x_lookahead  = x + μv_x**
+**1. Predicting the future position: ![image](https://github.com/user-attachments/assets/42d90143-3fc8-4af8-afc3-86a34baf7804)
+
+
+x_lookahead  = x + μv_x**
 
    - μ is the Momentum parameter.
      
