@@ -25,13 +25,33 @@ The Nesterov Accelerated Gradient Descent algorithm consists of three main steps
 ![image](https://github.com/user-attachments/assets/b27d2419-1980-481e-86a5-b90b18cb009c)
 
 
-   - v_x  = μv_x- η ∇f(x_lookahead)
-     
-   - x = x + v_x
-     
-   - η is the learning rate.
-
-
-
 **Nesterov Accelerated Gradient Descent Algorithm:**
 The NAG algorithm is implemented here. In each epoch, we predict the future position of the parameters, compute the gradient at that position, and update the parameters.
+
+# Nesterov accelerated gradient descent algorithm
+
+
+def nesterov_accelerated_gradient(function_str, lr=0.1, momentum=0.9, epochs=50, x_init=2.5, y_init=2.5):
+    # Compute the objective function and gradient
+    function, grad_x, grad_y = compute_gradient(function_str)
+
+    # Starting from initial values
+    x, y = x_init, y_init
+    v_x, v_y = 0, 0  # Initial velocity in both directions
+    history = [(x, y)]  # Store history to display the optimization path
+
+    for _ in range(epochs):
+        # Predict the future position
+        x_lookahead, y_lookahead = x + momentum * v_x, y + momentum * v_y
+        grad_x_val, grad_y_val = grad_x(x_lookahead, y_lookahead), grad_y(x_lookahead, y_lookahead)
+
+        # Update velocities
+        v_x = momentum * v_x - lr * grad_x_val
+        v_y = momentum * v_y - lr * grad_y_val
+
+        # Update values of x and y
+        x += v_x
+        y += v_y
+        history.append((x, y))
+
+    return history, function
