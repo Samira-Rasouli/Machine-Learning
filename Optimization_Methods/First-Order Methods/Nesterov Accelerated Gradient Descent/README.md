@@ -31,7 +31,7 @@ The NAG algorithm is implemented here. In each epoch, we predict the future posi
 # Nesterov accelerated gradient descent algorithm
 
 
-def nesterov_accelerated_gradient(function_str, lr=0.1, momentum=0.9, epochs=50, x_init=2.5, y_init=2.5):
+    def nesterov_accelerated_gradient(function_str, lr=0.1, momentum=0.9, epochs=50, x_init=2.5, y_init=2.5):
     # Compute the objective function and gradient
     function, grad_x, grad_y = compute_gradient(function_str)
 
