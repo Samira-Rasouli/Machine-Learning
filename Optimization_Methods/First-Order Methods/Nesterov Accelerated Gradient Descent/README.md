@@ -55,3 +55,7 @@ The NAG algorithm is implemented here. In each epoch, we predict the future posi
         history.append((x, y))
 
     return history, function
+
+![Figure_2D](https://github.com/user-attachments/assets/39791242-babd-487e-897a-8e21155b00ee)
+
+![NAGD](https://github.com/user-attachments/assets/bb076dcc-7ca1-494a-a589-2dffcb756928)
