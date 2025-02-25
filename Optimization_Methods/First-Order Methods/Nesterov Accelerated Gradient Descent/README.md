@@ -22,11 +22,15 @@ The Nesterov Accelerated Gradient Descent algorithm consists of three main steps
      
 **3. Updating the velocity and parameters:**
 
-v_x  = μv_x- η ∇f(x_lookahead)
-    
+![image](https://github.com/user-attachments/assets/b27d2419-1980-481e-86a5-b90b18cb009c)
+
+
+   - v_x  = μv_x- η ∇f(x_lookahead)
+     
    - x = x + v_x
      
    - η is the learning rate.
+
 
 
 **Nesterov Accelerated Gradient Descent Algorithm:**
