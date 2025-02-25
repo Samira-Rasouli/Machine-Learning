@@ -1,4 +1,4 @@
-#Nesterov Accelerated Gradient Descent (NAG)
+# Nesterov Accelerated Gradient Descent (NAG)
 
 Nesterov Accelerated Gradient Descent (NAG) is an advanced optimization technique designed to improve the performance of standard Gradient Descent algorithms. It was introduced by Yurii Nesterov and aims to accelerate the convergence of gradient descent methods.
 
@@ -10,11 +10,7 @@ Nesterov Accelerated Gradient Descent uses a technique called Momentum to addres
 
 The Nesterov Accelerated Gradient Descent algorithm consists of three main steps:
 
-**1. Predicting the future position:** ![image](https://github.com/user-attachments/assets/94246086-7c8b-46fb-9ba6-024fb13234d0)
-
-
-
-x_lookahead  = x + μv_x**
+**1. Predicting the future position:**   ![image](https://github.com/user-attachments/assets/94246086-7c8b-46fb-9ba6-024fb13234d0)
 
    - μ is the Momentum parameter.
      
